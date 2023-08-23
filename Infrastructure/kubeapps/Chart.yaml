@@ -1,0 +1,9 @@
+apiVersion: v2
+name: kubeapps
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies:
+- name: kubeapps
+  version: 8.0.16
+  repository: https://charts.bitnami.com/bitnami
